@@ -1110,7 +1110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 804685758}
   m_Layer: 0
-  m_Name: ' -------------------------------------------------'
+  m_Name: --------------------------------------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1810,7 +1810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3c02c18010dd8c438ffe31271f37b08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 5
 --- !u!1 &1247533799
 GameObject:
   m_ObjectHideFlags: 0
@@ -1960,7 +1960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c56316740233a9c419662ad851b5804b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 15
 --- !u!1 &1321484852
 GameObject:
   m_ObjectHideFlags: 0
@@ -2357,6 +2357,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec4ad7445ba887468113c0a27c5429e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  onWin:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1351524423
 MonoBehaviour:
   m_ObjectHideFlags: 0

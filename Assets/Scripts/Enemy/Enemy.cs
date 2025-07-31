@@ -11,11 +11,11 @@ public abstract class Enemy : MonoBehaviour
             var damageable = col.gameObject.GetComponent<IDamageable>();
             if (damageable != null)
             {
-                Attack(damageable);
+                Attack(damageable, damage);
                 Destroy(gameObject);
             }
         }
     }
 
-    protected abstract void Attack(IDamageable target);
+    protected abstract void Attack(IDamageable target, float damage);
 }
